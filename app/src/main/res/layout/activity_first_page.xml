@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic13"
+    android:gravity="center"
+    tools:context=".FirstPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="TIC TAC TOE"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"/>
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+         <Button
+             android:id="@+id/singleP"
+           android:layout_width="300dp"
+             android:backgroundTint="@color/ggg"
+           android:layout_height="50dp"
+             android:textColor="@color/black"
+           android:text="SINGLE PLAYER"/>
+        <Button
+            android:id="@+id/dualP"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/ggg"
+            android:text="DUAL PLAYER"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
